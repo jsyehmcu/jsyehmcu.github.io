@@ -20,8 +20,8 @@ function windowResized() {
 }
 var bPlayed=false;
 function draw() {
-  let destH=17;
-  let destM=40;
+  let destH=12;
+  let destM=0;
   let destS=0;
   background(58,114,191);
   let now = hour()*60*60+minute()*60+second();
